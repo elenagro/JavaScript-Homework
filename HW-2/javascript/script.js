@@ -2,12 +2,12 @@
 
 var recipe = {
     title: "Pancakes",
-    servings: 2,
+    serves: 2,
     ingredients: ['egg', 'flour', 'milk', 'water', 'cream', 'banana']
 };
 
 console.log(recipe.title);
-console.log("Servings: " + recipe.servings);
+console.log("Serves: " + recipe.serves);
 console.log("Ingredients: ");
 console.log(recipe.ingredients[0]);
 console.log(recipe.ingredients[1]);
