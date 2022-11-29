@@ -65,14 +65,14 @@ console.log(CountCharacters("KAJWEANFONSALFOENASCOFEWAWWWWWNCSDI", "'W'"));
 // OVA NE MI IZLEGUVA \/
 
 function LargestNumber(numString) {
-    var largest = 0;
+    var largest = numString[0];
     for (let i = 0; i < numString.length; i++) {
         if (largest < numString[i]) {
             largest = numString[i];
         }
         console.log(largest);
-        return `Number ${largest} is the largest number in this string: ${numString}`;
     }
+    return `Number ${largest} is the largest number in this string: ${numString}`;
 }
 
 console.log(LargestNumber([26, 89, 105, 10, 690, 45, 2]));
