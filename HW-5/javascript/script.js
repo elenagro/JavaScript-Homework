@@ -62,7 +62,6 @@ console.log(CountCharacters("KAJWEANFONSALFOENASCOFEWAWWWWWNCSDI", "'W'"));
 
 /* Креирајте функција која се вика LargestNumber. Оваа функција прима еден параметар: низа од бројки. Вратете го најголемиот број од таа низа. */
 
-// OVA NE MI IZLEGUVA \/
 
 function LargestNumber(numString) {
     var largest = numString[0];
