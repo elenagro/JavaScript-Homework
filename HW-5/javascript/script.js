@@ -25,7 +25,7 @@ var books = [
 
 var filteredBooks = books.filter(books => {
     return books.price < 400;
-})
+});
 console.log(filteredBooks);
 
 
@@ -57,21 +57,20 @@ function CountCharacters(string, letterRepeat) {
         }
     }
     return `Now, the letter ${letterRepeat} in ${string} is shown ${result} times.`;
-}
+};
 console.log(CountCharacters("KAJWEANFONSALFOENASCOFEWAWWWWWNCSDI", "'W'"));
 
 /* Креирајте функција која се вика LargestNumber. Оваа функција прима еден параметар: низа од бројки. Вратете го најголемиот број од таа низа. */
 
 
 function LargestNumber(numString) {
-    var largest = numString[0];
+    var largest = 0;
     for (let i = 0; i < numString.length; i++) {
         if (largest < numString[i]) {
             largest = numString[i];
         }
-        console.log(largest);
     }
     return `Number ${largest} is the largest number in this string: ${numString}`;
-}
+};
 
 console.log(LargestNumber([26, 89, 105, 10, 690, 45, 2]));
